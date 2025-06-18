@@ -47,17 +47,7 @@ npm start
 
 Backend will run at: `http://localhost:5050`
 
-### 4. 🌐 Frontend Setup (React + Vite)
-
-```bash
-cd ../ai_image_analyser
-npm install
-npm run dev
-```
-
-Frontend will run at: `http://localhost:8080`
-
-### 5. 🧠 Start Ollama (LLaVA Model)
+### 4. 🧠 Start Ollama (LLaVA Model)
 
 Install and run the LLaVA model via Ollama:
 
@@ -127,7 +117,7 @@ ai-image-analyser/
 
 ## 🎥 Demo Video
 
-> Please refer to the [Demo Video Link Here](#) for a walkthrough of:
+> Please refer to the [Demo Video Link Here](https://drive.google.com/file/d/1TwzQvGfEwj4mbqD4uTlfnQA0hlMVl40f/view?usp=drivesdk) for a walkthrough of:
 >
 > - Uploading an image
 > - Running the LLaVA model
@@ -139,4 +129,3 @@ ai-image-analyser/
 ## ✅ AI Tool Usage
 
 See `AI_USAGE.md` for complete details on how Ollama and LLaVA were integrated for vision analysis.
-
