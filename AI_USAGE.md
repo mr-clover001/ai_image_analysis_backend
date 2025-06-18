@@ -31,6 +31,7 @@ Keep this terminal running while the app is in use.
 
 When an image is uploaded, the backend: 1. Converts the image to base64 2. Sends it to LLaVA via:
 
+```bash
 const llamaResponse = await axios.post(
 "http://localhost:11434/api/generate",
 {
@@ -40,6 +41,7 @@ images: [base64Image],
 stream: false,
 }
 );
+```
 
 Request Breakdown:
 • model: "llava" — model identifier
